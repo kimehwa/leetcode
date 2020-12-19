@@ -15,7 +15,7 @@ class Solution {
          
         // if (nums==null||nums.length==0) {
         //     return null;
-        // }
+        // }   这个测试
         // for(int i= 0;i<nums.length;i++){
         //     for ( int j = i+1; j < nums.length; j++) {
         //         if(nums[i]+nums[j]==target){
