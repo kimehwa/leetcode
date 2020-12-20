@@ -23,7 +23,7 @@ class Solution {
         if(p.val==q.val){
             if(isSameTree(p.left, q.left)&&isSameTree(p.right, q.right)){
                 return true;
-            } //我这样写效率不高啊，因为 这人修改了一下处理了很多次这个，不过整体来说这种简单的递归树还是能写出来一点了
+            } //我这样写效率不高啊，因为 这人修改了一下处理了很多次这个，不过整烦烦的体来说这种简单的递归树还是能写出来一点了
         }
         return false;
         // if(q.val!=p.val) return false;
